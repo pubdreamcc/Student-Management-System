@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <title>Add Student</title>
+</head>
+<body>
+  <form action="/add" method="POST">
+    <div class="form-group">
+      <label for="">Your Name</label>
+      <input type="text" class="form-control" id="" placeholder="请输入你的大名" name="name">
+    </div>
+    <div class="form-group">
+      <label for="">Your Age</label>
+      <input type="number" class="form-control" id="" placeholder="请输入你的年龄" name="age">
+    </div>
+    <div class="form-group">
+      <label for="">Your Hobbies</label>
+      <input type="text" id="" placeholder="请输入你的爱好" name="hobbies" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">添加</button>
+  </form>
+</body>
+</html>

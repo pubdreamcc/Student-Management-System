@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <title>Edit Student</title>
+</head>
+<body>
+  <form action="/edit" method="POST">
+    <div class="form-group">
+      <label for="">Your Name</label>
+      <input type="text" class="form-control" id="" name="name" value="{{student.name}}">
+    </div>
+    <div class="form-group">
+      <label for="">Your Age</label>
+      <input type="number" class="form-control" id="" name="age" value="{{student.age}}">
+    </div>
+    <div class="form-group">
+      <label for="">Your Hobbies</label>
+      <input type="text" id="" name="hobbies" class="form-control" value="{{student.hobbies}}">
+    </div>
+    <input type="hidden" name="id" value="{{student.id}}">
+    <button type="submit" class="btn btn-primary">修改</button>
+  </form>
+</body>
+</html>

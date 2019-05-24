@@ -1,0 +1,27 @@
+{
+  "name": "Student-Management-System",
+  "version": "1.0.0",
+  "description": "基于Node.js的Express框架开发的学生信息管理系统，实现基本（C-R-U-D）功能。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pubdreamcc/Student-Management-System.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pubdreamcc/Student-Management-System/issues"
+  },
+  "homepage": "https://github.com/pubdreamcc/Student-Management-System#readme",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.0",
+    "express-art-template": "^1.0.1"
+  }
+}
